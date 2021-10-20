@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
 import socket
+
 __author__ = 'MR.wen'
 import TickerConfig
 from email.header import Header
