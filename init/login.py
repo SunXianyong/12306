@@ -78,6 +78,7 @@ class GoLogin:
             else:
                 print(u"登录失败: {0}".format(messages))
                 print(u"尝试重新登陆")
+                time.sleep(1)
                 return False
         else:
             return False
